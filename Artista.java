@@ -7,8 +7,8 @@ public class Artista {
         this.nombreArtista = nombreArtista;
     }
 
-    //Constructor por defecto
-    public Artista() {
+    //Constructor pr defecto
+    public Artist() {
 	this("");
     }
 
