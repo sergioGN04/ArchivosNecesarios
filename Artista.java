@@ -1,6 +1,6 @@
 package evf.javadoc.original;
 
-//Comentario Nuevo
+//Comentario apartado b
 
 public class Artista {
     String nombreArtista;
@@ -9,8 +9,8 @@ public class Artista {
         this.nombreArtista = nombreArtista;
     }
 
-    //Constructor pr defecto
-    public Artist() {
+    //Constructor por defecto
+    public Artista() {
 	this("");
     }
 
