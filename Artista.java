@@ -7,6 +7,11 @@ public class Artista {
         this.nombreArtista = nombreArtista;
     }
 
+    //Constructor por defecto
+    public Artista() {
+	this("");
+    }
+
     @Override
     public String toString() {
         return "Artista{" +
