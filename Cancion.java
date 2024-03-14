@@ -2,10 +2,15 @@ package evf.javadoc.original;
 
 
  public class Cancion {
+    //Nuevo atributo
+    private int id;
+
     String nombreCancion;
     Artista artista;
 
-    public Cancion(String nombreCancion, Artista artista) {
+    //Modificamos el contructor
+    public Cancion(int id, String nombreCancion, Artista artista) {
+	this.id = id;
         this.nombreCancion = nombreCancion;
         this.artista = artista;
     }
